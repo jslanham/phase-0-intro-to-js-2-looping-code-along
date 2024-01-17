@@ -11,7 +11,6 @@ function writeCards(people, occasion){
     const writtenCards = [];
     for (let i = 0; i < people.length; i++){
         writtenCards.push(`Thank you, ${people[i]}, for the wonderful ${occasion} gift!`);
-        debugger;
     }
     return writtenCards;
 }
